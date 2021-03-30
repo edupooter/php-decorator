@@ -35,7 +35,7 @@ class BookTitleDecorator
     //doing this so original object is not altered
     function resetTitle()
     {
-        $this->title = $this->book->getTitle();
+        $this->title = $this->book->getAuthorAndTitle();
     }
     function showTitle()
     {
